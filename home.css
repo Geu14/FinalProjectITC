@@ -1,0 +1,69 @@
+body {
+    background-image: url("home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    text-shadow: 1px 1px 1px #303333,
+    1px 2px 1px #303333,
+    1px 3px 1px #303333,
+    1px 4px 1px #303333;
+   font-family: "Palatino Linotype", "Book Antiqua",serif;
+}
+
+header {
+    margin: 25px 0 0 15px;
+    font-weight: bold;
+    text-align: center;
+    color:whitesmoke;
+    text-shadow: 1px 1px 1px #303333,
+    1px 2px 1px #303333,
+    1px 3px 1px #303333,
+    1px 4px 1px #303333;
+font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+
+#articles {
+    color:whitesmoke;
+    text-shadow: 1px 1px 1px #303333,
+    1px 2px 1px #303333,
+    1px 3px 1px #303333,
+    1px 4px 1px #303333;
+}
+
+.first-row {
+    margin: 30px auto 0 10px;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.second-row {
+    margin: 20px auto 0 10px;
+    display: inline-flex;
+    font-family: Kristen ITC;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.article-card {
+    margin: 5px 4.5em;
+    padding: 5px;
+}
+
+.article-card img {
+    border-radius: 10px;
+}
+
+#articles h5 {
+    font-size: 25px;
+    margin: 9px auto;
+}
+
+#articles p {
+    font-size: 20px;
+    text-transform: initial;
+    margin: 6px;
+    text-align: center;
+}

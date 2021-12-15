@@ -1,0 +1,104 @@
+body {
+    background-image: url("asd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    color: #258682;
+    text-shadow: 1px 1px 1px #303333,
+    1px 2px 1px #303333,
+    1px 3px 1px #303333,
+    1px 4px 1px #303333;
+    box-sizing: border-box;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* FORM */
+form {
+    margin: 20px 0 5px 12px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+label {
+    font-size: 18px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+fieldset {
+    border-radius: 5px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+input,
+textarea {
+    display: block;
+    width: 19em;
+    height: auto;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #04312f;
+    background-clip: padding-box;
+    border: 1px solid #04312f;
+    border-radius: .25rem;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#personal-info {
+    float: left;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#message-area {
+    float: right;
+    width: 730px;
+    height: 260px;
+
+    min-width: 730px;
+    min-height: 260px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#submit-button {
+    margin: 12px auto;
+    padding: 5px;
+    width: 200px;
+    float: right;
+    background-color: rgb(4, 49, 47);
+    color: gray;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* SOCIAL MEDIA */
+#social-media {
+    text-align: center;
+    margin: 20px 0 5px 12px;
+    list-style-type: none;
+}
+
+.media-links {
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li a:hover {
+    color: rgba(250, 250, 250, 0.7);
+}
+
+svg {
+    color: #258682;
+    width: 3.8rem;
+    margin: 0 25px;
+    padding: 5px;
+}

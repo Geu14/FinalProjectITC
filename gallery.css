@@ -1,0 +1,33 @@
+body {
+    background-image: url("gallery-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    color: gray;
+    text-shadow: 1px 1px 1px #303333,
+    1px 2px 1px #303333,
+    1px 3px 1px #303333,
+    1px 4px 1px #303333;
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+
+header {
+    margin: 50px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.image-piece {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    display: inline-block;
+    margin: 20px;
+}
